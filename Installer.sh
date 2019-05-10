@@ -33,7 +33,9 @@ echo  "#8==> Hack FB "
 sleep 1
 echo  "#9==> FBH "
 sleep 1
-echo  "#10==> LazyGo "
+echo  "#10==> LazhGo "
+sleep 1
+echo  "#11==> ddoslite "
 
 sleep 1
 echo  "Pilih Nomor Berapa "
@@ -180,3 +182,23 @@ sh lazygo.sh
 sleep 1
 echo -e $red" DONE "
 fi
+
+if [ $act = 11 ] || [ $act = 11 ]
+then
+clear
+echo -e $green" installing ddoslite "
+sleep 1
+git clone https://github.com/m34n5t4/ddoslite.git
+cd ddoslite
+sh DdosLite.sh
+sleep 1
+echo -e $red" DONE "
+fi
+
+
+
+
+
+
+
+
