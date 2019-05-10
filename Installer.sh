@@ -33,7 +33,7 @@ echo  "#8==> Hack FB "
 sleep 1
 echo  "#9==> FBH "
 sleep 1
-echo  "#10==> LazhGo "
+echo  "#10==> LazyGo "
 sleep 1
 echo  "#11==> ddoslite "
 
