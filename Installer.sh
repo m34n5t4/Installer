@@ -4,38 +4,68 @@
 # mampu berkarya bkn cma bergaya
 clear
 
-echo "\033[38;1m ###########################"|lolcat
-echo "\033[31;1m ★Tools Installer★"
-echo "\033[36;1m Author By :M34N5T4"
-echo "\033[32;1m Thanks for:Cyber Net Muslim"
-
-echo "\033[38;1m ###########################"|lolcat
-
+echo "\033[38;1m ##################################"|lolcat
+echo "\033[31;1m #       ★Tools Installer★        #"
+echo "\033[36;1m #       Author By:M34N5T4        #"
+echo "\033[32;1m #   Thanks for:Cyber Net Muslim  #"
+echo "\033[38;1m ##################################"|lolcat
 date|lolcat
 
 toilet -f slant --gay "M34N5T4"
-
+echo "\033[38;1m ============================"|lolcat
 echo  "#1==> GcoSpam "
+echo "\033[38;1m ============================"|lolcat
 sleep 1
 echo  "#2==> LiteSpam "
+echo "\033[38;1m ============================"|lolcat
 sleep 1
 echo  "#3==> Tool Mr.Rv1.1 "
+echo "\033[38;1m ============================"|lolcat
 sleep 1
 echo  "#4==> NetHunter "
+echo "\033[38;1m ============================"|lolcat
 sleep 1
 echo  "#5==> Metasploit "
+echo "\033[38;1m ============================"|lolcat
 sleep 1
 echo  "#6==> Tool B4J1N94N "
+echo "\033[38;1m ============================"|lolcat
 sleep 1
 echo  "#7==> Tool TU4NB4DUT "
+echo "\033[38;1m ============================"|lolcat
 sleep 1
 echo  "#8==> Hack FB "
+echo "\033[38;1m ============================"|lolcat
 sleep 1
-echo  "#9==> FBH "
+echo  "#9==> Tool FBH "
+echo "\033[38;1m ============================"|lolcat
 sleep 1
 echo  "#10==> LazyGo "
+echo "\033[38;1m ============================"|lolcat
 sleep 1
-echo  "#11==> ddoslite "
+echo  "#11==> Ddoslite "
+echo "\033[38;1m ============================"|lolcat
+sleep 1
+echo  "#12==> Ngrok "
+echo "\033[38;1m ============================"|lolcat
+sleep 1
+echo  "#13==> IpGeolocation "
+echo "\033[38;1m ============================"|lolcat
+sleep 1
+echo  "#14==> Red_Hawk "
+echo "\033[38;1m ============================"|lolcat
+sleep 1
+echo  "#15==> Auto Deface "
+echo "\033[38;1m ============================"|lolcat
+sleep 1
+echo  "#16==> Bot InstaGram "
+echo "\033[38;1m ============================"|lolcat
+sleep 1
+echo  "#17==> Install Ubuntu "
+echo "\033[38;1m ============================"|lolcat
+sleep 1
+echo  "#0==> Keluar "
+echo "\033[38;1m ============================"|lolcat
 
 sleep 1
 echo  "Pilih Nomor Berapa "
@@ -53,7 +83,7 @@ sh gco.sh
 sleep 1
 echo -e $red" DONE "
 fi
-
+ 
 if [ $act = 2 ] || [ $act = 2 ]
 then
 clear
@@ -91,12 +121,8 @@ then
 clear
 echo -e $green" installing NetHunter "
 sleep 1
-git clone https://github.com/Hax4us/Nethunter-In-Termux.git
-cd Nethunter
-Is
-chmod +x kalinethunter
-./kalinethunter
-./startkali.sh
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Nethunter/nethunter.sh && bash nethunter.sh
+./start-nethunter.sh
 sleep 1
 echo -e $red" DONE "
 fi
@@ -195,10 +221,107 @@ sleep 1
 echo -e $red" DONE "
 fi
 
+if [ $act = 12 ] || [ $act = 12 ]
+then
+clear
+echo -e $green" installing Ngrok "
+sleep 1
+apt install wget
+mkdir ngrok
+cd ~/ngrok
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
+cd ~/
+sleep 1
+echo -e $red" DONE "
+fi
 
 
+if [ $act = 13 ] || [ $act = 13 ]
+then
+clear
+echo -e $green" installing IPGeolocation "
+sleep 1
+git clone https://github.com/maldevel/IPGeolocation.git
+cd IPGeolocation
+chmod +x ipgeolocation.py
+pip install -r requirements.txt
+sleep 1
+echo -e $red" Done "
+fi
 
+if [ $act = 14 ] || [ $act = 14 ]
+then
+clear
+echo -e $green" Installing Red Hawk "
+sleep 1
+apt install php
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+cd RED_HAWK
+sh RED_HAWK.sh
+sleep 1
+echo -e $green" Done "
+fi
 
+if [ $act = 15 ] || [ $act = 15 ]
+then
+clear
+echo -e $green" installing bot auto deface  "
+sleep 1
+apt-get install git && apt-get install perl
+git clone https://github.com/Moham3dRiahi/XAttacker
+cd XAttacker
+chmod 777 XAttacker.pl
+echo -e $red" Done "
+fi
 
+if [ $act = 16 ] || [ $act = 16 ]
+then
+clear
+echo -e $green" installing Instabot instagram bot "
+sleep 1
+apt-get update && apt-get upgrade
+pkg install python2
+apt-get install nano
+git clone https://github.com/instabot-py/instabot.py
+echo -e $red" TERINSTALL "
+echo -e $red" Please wait... "
+echo -e $red" Please wait... "
+sleep 1
+cd instabot.py
+echo -e $red" ketik nano example.py "
+echo -e $red" masukan username dan password mu"
+echo -e $red" Done "
+fi
 
+if [ $act = 17 ] || [ $act = 17 ]
+then
+clear
+echo -e $green" installing Ubuntu "
+sleep 1
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
+./start-ubuntu.sh
+sleep 1
+echo -e $red" DONE "
+fi
 
+if [ $act = 0 ] || [ $act = 0 ]
+then
+clear
+toilet -f slant --gay "THANKS "
+sleep 1
+echo $green" Jangan Pernah berhenti dan menyerah "
+sleep 1
+echo $green" Gagal Itu Biasa Yang Penting Tetap Berusha "
+sleep 1
+echo $green" Karna Dimana ada kemauan disitu ada jalan "
+echo $green" Wassalam "
+sleep 1
+echo $green" contact : m34n5t4@gmail.com "
+sleep 1
+echo $red" Blogs : https://m34n5t4.blogspot.com"
+sleep 1
+echo $red" sampai bertemu dimasa yg akan datang :'("
+sleep 1
+exit
+fi
