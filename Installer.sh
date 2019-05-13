@@ -5,7 +5,7 @@
 clear
 
 echo "\033[38;1m ##################################"|lolcat
-echo "\033[31;1m #       ★Tools Installer★        #"
+echo "\033[31;1m #       ★Tools Installer★       #"
 echo "\033[36;1m #       Author By:M34N5T4        #"
 echo "\033[32;1m #   Thanks for:Cyber Net Muslim  #"
 echo "\033[38;1m ##################################"|lolcat
