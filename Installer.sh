@@ -5,71 +5,61 @@
 clear
 
 echo "\033[38;1m ##################################"|lolcat
-echo "\033[31;1m #       ★Tools Installer★       #"
+echo "\033[31;1m #       ★Tools Installer★        #"
 echo "\033[36;1m #       Author By:M34N5T4        #"
-echo "\033[32;1m #   Thanks for:Cyber Net Muslim  #"
+echo "\033[32;1m #   Thanks for:Indo Cyber Army   #"
 echo "\033[38;1m ##################################"|lolcat
 date|lolcat
 
-toilet -f slant --gay "M34N5T4"
+toilet --gay "Installer"
 echo "\033[38;1m ============================"|lolcat
-echo  "#1==> GcoSpam "
+echo  "★1==> GcoSpam "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#2==> LiteSpam "
+echo  "★2==> LiteSpam "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#3==> Tool Mr.Rv1.1 "
+echo  "#★==> Tool Mr.Rv1.1 "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#4==> NetHunter "
+echo  "#★==> NetHunter "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#5==> Metasploit "
+echo  "★5==> Metasploit "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#6==> Tool B4J1N94N "
+echo  "★6==> Tool B4J1N94N "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#7==> Tool TU4NB4DUT "
+echo  "★7==> Tool TU4NB4DUT "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#8==> Hack FB "
+echo  "★8==> Hack FB "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#9==> Tool FBH "
+echo  "★9==> Tool FBH "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#10==> LazyGo "
+echo  "★10==> LazyGo "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#11==> Ddoslite "
+echo  "★11==> Ddoslite "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#12==> Ngrok "
+echo  "★12==> Ngrok "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#13==> IpGeolocation "
+echo  "★13==> IpGeolocation "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#14==> Red_Hawk "
+echo  "★14==> Red_Hawk "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#15==> Auto Deface "
+echo  "★#15==> Auto Deface "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#16==> Bot InstaGram "
+echo  "★16==> Bot InstaGram "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#17==> Install Ubuntu "
+echo  "★17==> Install Ubuntu "
 echo "\033[38;1m ============================"|lolcat
-sleep 1
-echo  "#0==> Keluar "
+echo  "★18==> sadap camera "
+echo "\033[38;1m ============================"|lolcat
+echo  "★19==> shellphising "
+echo "\033[38;1m ============================"|lolcat
+echo  "★20==> hack cctv "
+echo "\033[38;1m ============================"|lolcat
+echo  "★0==> Keluar "
 echo "\033[38;1m ============================"|lolcat
 
 sleep 1
 echo  "Pilih Nomor Berapa "
-read -p "[root@m34n5t4]# " act;
+echo
+read -p ">>>>>★ " act;
 
 if [ $act = 1 ] || [ $act = 1 ]
 then
@@ -116,6 +106,21 @@ sleep 1
 echo -e $red" DONE "
 fi
 
+if [ $act = 20 ] || [ $act = 20 ]
+then
+clear
+echo -e $green" installing hack cctv "
+sleep 1
+pkg install curl
+git clone https://github.com/zlucifer/all_seeing
+cd all_seeing
+chmod +x *
+termux-fix-shebang cctv.sh
+./cctv.sh
+sleep 1
+echo -e $red" DONE "
+fi
+
 if [ $act = 4 ] || [ $act = 4 ]
 then
 clear
@@ -132,10 +137,11 @@ then
 clear
 echo -e $green" installing  Metasploit "
 sleep 1
-pkg install curl
-curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
-chmod +x metasploit.sh
-./metasploit.sh
+$ apt install update && apt install upgrade
+$ apt install git && apt install wget && apt install curl && apt install ruby
+$ apt install root-repo && apt install unstable-repo && apt install x11-repo
+$ pkg install metasploit
+$ msfconsole
 sleep 1
 echo -e $red" DONE "
 fi
@@ -263,6 +269,20 @@ sleep 1
 echo -e $green" Done "
 fi
 
+if [ $act = 18 ] || [ $act = 18 ]
+then
+clear
+echo -e $green" installing sadap camera "
+sleep 1
+git clone https://github.com/thelinuxchoice/saycheese
+cd saycheese
+pkg install php
+pkg install openssh
+bash saycheese.sh
+sleep 1
+echo -e $red" DONE "
+fi
+
 if [ $act = 15 ] || [ $act = 15 ]
 then
 clear
@@ -305,10 +325,26 @@ sleep 1
 echo -e $red" DONE "
 fi
 
+if [ $act = 19 ] || [ $act = 19 ]
+then
+clear
+echo -e $green" installing shellphising "
+sleep 1
+pkg install php
+pkg install curl
+pkg install wget
+pkg install openssh
+git clone https://github.com/thelinuxchoice/shellphish
+cd shellphish
+bash shellphish.sh
+sleep 1
+echo -e $red" DONE "
+fi
+
 if [ $act = 0 ] || [ $act = 0 ]
 then
 clear
-toilet -f slant --gay "THANKS "
+toilet --gay "THANKS "
 sleep 1
 echo $green" Jangan Pernah berhenti dan menyerah "
 sleep 1
@@ -321,7 +357,7 @@ echo $green" contact : m34n5t4@gmail.com "
 sleep 1
 echo $red" Blogs : https://m34n5t4.blogspot.com"
 sleep 1
-echo $red" sampai bertemu dimasa yg akan datang :'("
+echo $red" sampai bertemu dimasa yg akan datang :)"
 sleep 1
 exit
 fi
