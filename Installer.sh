@@ -137,7 +137,7 @@ then
 clear
 echo -e $green" installing  Metasploit "
 sleep 1
-apt install update && apt install upgrade
+dpkg --configure -a
 apt install git && apt install wget && apt install curl && apt install ruby
 apt install root-repo && apt install unstable-repo && apt install x11-repo
 pkg install metasploit
