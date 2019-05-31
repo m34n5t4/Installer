@@ -17,9 +17,9 @@ echo  "★1==> GcoSpam "
 echo "\033[38;1m ============================"|lolcat
 echo  "★2==> LiteSpam "
 echo "\033[38;1m ============================"|lolcat
-echo  "#★==> Tool Mr.Rv1.1 "
+echo  "★3==> Tool Mr.Rv1.1 "
 echo "\033[38;1m ============================"|lolcat
-echo  "#★==> NetHunter "
+echo  "★4==> NetHunter "
 echo "\033[38;1m ============================"|lolcat
 echo  "★5==> Metasploit "
 echo "\033[38;1m ============================"|lolcat
