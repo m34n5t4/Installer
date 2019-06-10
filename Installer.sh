@@ -7,7 +7,7 @@ clear
 echo "\033[38;1m ##################################"|lolcat
 echo "\033[31;1m #       ★Tools Installer★  v¹    #"
 echo "\033[36;1m #       Author By:M34N5T4        #"
-echo "\033[36;1m #      Contact:08774168080       #"
+echo "\033[36;1m #      Contact:087741638080      #"
 echo "\033[32;1m #   Thanks for:Indo Cyber Army   #"
 echo "\033[38;1m ##################################"|lolcat
 date|lolcat
