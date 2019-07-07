@@ -4,15 +4,15 @@
 # mampu berkarya bkn cma bergaya
 clear
 
-echo "\033[38;1m ##################################"|lolcat
-echo "\033[31;1m #       ★Tools Installer★  v¹    #"
-echo "\033[36;1m #       Author By:M34N5T4        #"
-echo "\033[36;1m #      Contact:087741638080      #"
-echo "\033[32;1m #   Thanks for:Indo Cyber Army   #"
-echo "\033[38;1m ##################################"|lolcat
-date|lolcat
 
 toilet -f slant --gay "Installer"
+echo "╔══════════════════════════════════╗"
+echo "\033[32;1m║ Author: W4LK3R✓404               ║"
+echo "\033[37;1m║ Contact: m34n5t4@gmail.com       ║"
+echo "\033[35;1m║ Tools: Installer v¹              ║"
+echo "\033[34;1m║ Team: Muslim Cyber Army          ║"
+echo "\033[30;1m╚══════════════════════════════════╝"
+
 echo "\033[38;1m ============================"|lolcat
 echo  "★1==> GcoSpam "
 echo "\033[38;1m ============================"|lolcat
